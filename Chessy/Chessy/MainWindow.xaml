@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Chessy"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Chessy" Height="800" Width="800" SizeToContent="WidthAndHeight" MinWidth="500" MinHeight="500">
     <Grid>
-        
+        <local:ChessBoard >
+            
+        </local:ChessBoard>
     </Grid>
 </Window>
